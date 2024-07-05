@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bootstrap</title>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        
+        <link rel="stylesheet" href="css/styles.css" />
+
+        <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    </head>
+    <body>
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://picsum.photos/id/237/536/354" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://picsum.photos/id/1084/536/354?grayscale" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://picsum.photos/seed/picsum/536/354" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Teléfono</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container my-3">
+            <div class="row animate__animated animate__rubberBand">
+                <h1 class="display-3">Hello, World!</h1>
+                <p class="text-justify">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente alias consequatur inventore maxime iste eius esse provident facilis atque, deleniti amet commodi soluta assumenda! Doloremque
+                    voluptates corrupti iste blanditiis, quaerat quidem quos voluptate id ad aperiam voluptatem amet nemo, odit vero cumque totam deleniti dolorum commodi. Sed ipsa ab officiis.
+                </p>
+                <p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                </p>
+            </div>
+
+            <div class="row text-center animate__animated animate__bounceInLeft">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 1</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex dolor vel reiciendis quas id mollitia adipisci ipsa non, necessitatibus totam?</p>
+                            <a href="#" class="btn btn-info">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 2</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex dolor vel reiciendis quas id mollitia adipisci ipsa non, necessitatibus totam?</p>
+                            <a href="#" class="btn btn-info">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title 3</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex dolor vel reiciendis quas id mollitia adipisci ipsa non, necessitatibus totam?</p>
+                            <a href="#" class="btn btn-info">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row align-items-center animate__animated animate__bounceInRight">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <img src="img/image1.JPG" class="img-fluid" alt="Image" />
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <h1 class="display-3 text-center">Suscríbete a mi canal! :)</h1>
+                    <p class="text-justify">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad necessitatibus laboriosam voluptatum, eveniet deserunt omnis dolores voluptates aliquam quisquam rem ut eius, assumenda voluptas maiores
+                        quas repellendus porro natus possimus placeat, consequuntur harum dicta iusto qui! Unde ipsa ullam libero odio mollitia error cumque nemo recusandae enim reiciendis ipsum repellendus autem, illum
+                        voluptatibus excepturi in magni architecto aut molestias, voluptatem adipisci sapiente. Praesentium exercitationem dolorum esse blanditiis expedita porro qui tempora itaque, totam suscipit
+                        quisquam, impedit nulla non ea adipisci repellendus voluptatem maiores earum ab? Delectus, fugiat nisi quos corporis aliquid voluptatem dolor soluta neque quaerat eveniet. Qui, eligendi
+                        doloremque!
+                    </p>
+                </div>
+            </div>
+
+            <div class="row align-items-center animate__animated animate__backInUp">
+                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 mt-3">
+                    
+                </div>
+                <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9 mt-3">
+                    <img src="img/image2.JPG " class="img-fluid text-center" alt="Image"  />
+                </div>
+            </div>
+
+            <div class="row">
+                <footer class="py-3 my-4">
+                    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                        <li class="nav-item"><a href="#!" class="nav-link px-2 text-muted">Inicio</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link px-2 text-muted">Contacto</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link px-2 text-muted">Servicios</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link px-2 text-muted">Información</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link px-2 text-muted">Teléfono</a></li>
+                    </ul>
+                    <p class="text-center text-muted">© <span id="currentYear"></span> Copyright</p>
+                </footer>
+            </div>
+        </div>
+
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
